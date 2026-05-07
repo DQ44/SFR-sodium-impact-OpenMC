@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<settings>
+  <run_mode>eigenvalue</run_mode>
+  <particles>10000</particles>
+  <batches>100</batches>
+  <inactive>10</inactive>
+  <source particle="neutron" strength="1.0" type="independent">
+    <space type="point">
+      <parameters>0 -1.25984 0.0</parameters>
+    </space>
+    <angle type="isotropic"/>
+    <energy parameters="0.988 2.249" type="watt"/>
+  </source>
+  <temperature_method>interpolation</temperature_method>
+  <temperature_range>300 1200</temperature_range>
+</settings>

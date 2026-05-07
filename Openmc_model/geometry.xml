@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<geometry>
+  <cell id="321" material="114" name="Fuel1" region="-241" universe="115"/>
+  <cell id="322" material="115" name="Fuel2" region="-241" universe="116"/>
+  <cell id="323" material="116" name="Fuel3" region="-241" universe="117"/>
+  <cell id="324" material="113" name="UGd" region="-241" universe="118"/>
+  <cell id="325" material="118" name="Guide Tube" region="-243" universe="114"/>
+  <cell id="326" material="119" name="Helium 3.6 Gap" region="241 -242" universe="115"/>
+  <cell id="327" material="119" name="Helium 2.7 Gap" region="241 -242" universe="116"/>
+  <cell id="328" material="119" name="Helium 2.4 Gap" region="241 -242" universe="117"/>
+  <cell id="329" material="119" name="Helium Ugd Gap" region="241 -242" universe="118"/>
+  <cell id="330" material="118" name="Cladding 3.6" region="242 -243" universe="115"/>
+  <cell id="331" material="118" name="Cladding 2.7" region="242 -243" universe="116"/>
+  <cell id="332" material="118" name="Cladding 2.4" region="242 -243" universe="117"/>
+  <cell id="333" material="118" name="Cladding Ugd" region="242 -243" universe="118"/>
+  <cell id="334" material="117" name="Coolant 3.6 inner" region="243" universe="115"/>
+  <cell id="335" material="117" name="Coolant 2.7 inner" region="243" universe="116"/>
+  <cell id="336" material="117" name="Coolant 2.4 inner" region="243" universe="117"/>
+  <cell id="337" material="117" name="Coolant Ugd inner" region="243" universe="118"/>
+  <cell id="338" material="117" name="Coolant GT inner" region="243" universe="114"/>
+  <cell id="339" material="117" name="Coolant outer" universe="113"/>
+  <cell fill="200" id="340" region="-250 251 -252 -253 254 255" universe="119"/>
+  <hex_lattice id="200" n_rings="11">
+    <pitch>1.25984</pitch>
+    <outer>113</outer>
+    <center>0.0 0.0</center>
+    <universes>
+                              117
+                           116   116
+                        116   118   116
+                     116   115   115   116
+                  116   115   115   115   116
+               116   115   115   115   115   116
+            116   115   115   115   115   115   116
+         116   115   115   115   115   115   115   116
+      116   115   118   115   115   115   118   115   116
+   116   115   115   115   115   115   115   115   115   116
+117   115   115   115   115   114   115   115   115   115   117
+   118   115   115   114   115   115   114   115   115   118
+116   115   115   115   115   115   115   115   115   115   116
+   115   115   115   115   118   115   115   115   115   115
+116   115   115   115   115   114   115   115   115   115   116
+   115   115   114   115   115   115   118   114   115   115
+116   115   115   115   115   115   115   115   115   115   116
+   115   115   115   114   115   115   114   115   115   115
+116   115   115   118   115   115   115   115   115   115   116
+   115   115   115   115   115   115   115   115   115   115
+116   118   114   115   115   114   115   115   114   118   116
+   115   115   115   115   115   115   115   115   115   115
+116   115   115   115   115   115   115   118   115   115   116
+   115   115   115   114   115   115   114   115   115   115
+116   115   115   115   115   115   115   115   115   115   116
+   115   115   114   118   115   115   115   114   115   115
+116   115   115   115   115   114   115   115   115   115   116
+   115   115   115   115   115   118   115   115   115   115
+116   115   115   115   115   115   115   115   115   115   116
+   118   115   115   114   115   115   114   115   115   118
+117   115   115   115   115   114   115   115   115   115   117
+   116   115   115   115   115   115   115   115   115   116
+      116   115   118   115   115   115   118   115   116
+         116   115   115   115   115   115   115   116
+            116   115   115   115   115   115   116
+               116   115   115   115   115   116
+                  116   115   115   115   116
+                     116   115   115   116
+                        116   118   116
+                           116   116
+                              117</universes>
+  </hex_lattice>
+  <surface coeffs="0.0 0.0 0.39218" id="241" type="z-cylinder"/>
+  <surface coeffs="0.0 0.0 0.40005" id="242" type="z-cylinder"/>
+  <surface coeffs="0.0 0.0 0.4572" id="243" type="z-cylinder"/>
+  <surface boundary="reflective" coeffs="25.980762113533157" id="250" type="x-plane"/>
+  <surface boundary="reflective" coeffs="-25.980762113533157" id="251" type="x-plane"/>
+  <surface boundary="reflective" coeffs="0.5773502691896257 1.0 0.0 30.0" id="252" type="plane"/>
+  <surface boundary="reflective" coeffs="-0.5773502691896257 1.0 0.0 30.0" id="253" type="plane"/>
+  <surface boundary="reflective" coeffs="-0.5773502691896257 1.0 0.0 -30.0" id="254" type="plane"/>
+  <surface boundary="reflective" coeffs="0.5773502691896257 1.0 0.0 -30.0" id="255" type="plane"/>
+</geometry>

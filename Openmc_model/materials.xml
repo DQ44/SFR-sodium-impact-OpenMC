@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='utf-8'?>
+<materials>
+  <material depletable="true" id="113" name="UGD Fuel" temperature="1200">
+    <density units="g/cm3" value="10.5"/>
+    <nuclide ao="0.924" name="U238"/>
+    <nuclide ao="0.036" name="U235"/>
+    <nuclide ao="8e-05" name="Gd152"/>
+    <nuclide ao="0.000872" name="Gd154"/>
+    <nuclide ao="0.00592" name="Gd155"/>
+    <nuclide ao="0.008187999999999999" name="Gd156"/>
+    <nuclide ao="0.00626" name="Gd157"/>
+    <nuclide ao="0.009936" name="Gd158"/>
+    <nuclide ao="0.008744" name="Gd160"/>
+  </material>
+  <material depletable="true" id="114" temperature="1200">
+    <density units="g/cm3" value="10.5"/>
+    <nuclide ao="4.914e-05" name="U234"/>
+    <nuclide ao="0.006555640000000001" name="U235"/>
+    <nuclide ao="0.90339522" name="U238"/>
+    <nuclide ao="0.08" name="Pu239"/>
+    <nuclide ao="0.035" name="Pu240"/>
+    <nuclide ao="0.005" name="Pu241"/>
+    <nuclide ao="0.005" name="Pu242"/>
+    <nuclide ao="2.0" name="O16"/>
+  </material>
+  <material depletable="true" id="115" temperature="1200">
+    <density units="g/cm3" value="10.5"/>
+    <nuclide ao="4.914e-05" name="U234"/>
+    <nuclide ao="0.006555640000000001" name="U235"/>
+    <nuclide ao="0.90339522" name="U238"/>
+    <nuclide ao="0.067" name="Pu239"/>
+    <nuclide ao="0.035" name="Pu240"/>
+    <nuclide ao="0.005" name="Pu241"/>
+    <nuclide ao="0.005" name="Pu242"/>
+    <nuclide ao="2.0" name="O16"/>
+  </material>
+  <material depletable="true" id="116" temperature="1200">
+    <density units="g/cm3" value="10.5"/>
+    <nuclide ao="4.914e-05" name="U234"/>
+    <nuclide ao="0.006555640000000001" name="U235"/>
+    <nuclide ao="0.90339522" name="U238"/>
+    <nuclide ao="0.052" name="Pu239"/>
+    <nuclide ao="0.035" name="Pu240"/>
+    <nuclide ao="0.005" name="Pu241"/>
+    <nuclide ao="0.005" name="Pu242"/>
+    <nuclide ao="2.0" name="O16"/>
+  </material>
+  <material id="117" name="Sodium" temperature="600">
+    <density units="g/cm3" value="0.927"/>
+    <nuclide ao="1.0" name="Na23"/>
+  </material>
+  <material id="118" name="Zirconium Cladding" temperature="900">
+    <density units="g/cm3" value="6.5"/>
+    <nuclide ao="0.5145" name="Zr90"/>
+    <nuclide ao="0.1122" name="Zr91"/>
+    <nuclide ao="0.1715" name="Zr92"/>
+    <nuclide ao="0.1738" name="Zr94"/>
+    <nuclide ao="0.028" name="Zr96"/>
+  </material>
+  <material id="119" name="Helium Gap" temperature="900">
+    <density units="g/cm3" value="0.0001786"/>
+    <nuclide ao="2e-06" name="He3"/>
+    <nuclide ao="0.999998" name="He4"/>
+  </material>
+</materials>
